@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect("mongodb://127.0.0.1:27017/crudDB")
+mongoose.connect("mongodb://ahp4949:Sj3guT8HxhlUWTPA@cluster0.bsrwrq4.mongodb.net/mydb?appName=Cluster0")
   .then(() => console.log("MongoDB Connected"));
 
 const User = mongoose.model("User", {
